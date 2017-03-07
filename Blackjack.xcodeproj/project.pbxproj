@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A143F51E1E6EA328002F4B96 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A143F51D1E6EA328002F4B96 /* main.cpp */; };
+		A143F5261E6EA354002F4B96 /* Blackjack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A143F5241E6EA354002F4B96 /* Blackjack.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		A143F51A1E6EA328002F4B96 /* Blackjack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Blackjack; sourceTree = BUILT_PRODUCTS_DIR; };
 		A143F51D1E6EA328002F4B96 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A143F5241E6EA354002F4B96 /* Blackjack.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Blackjack.cpp; sourceTree = "<group>"; };
+		A143F5251E6EA354002F4B96 /* Blackjack.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Blackjack.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				A143F51D1E6EA328002F4B96 /* main.cpp */,
+				A143F5241E6EA354002F4B96 /* Blackjack.cpp */,
+				A143F5251E6EA354002F4B96 /* Blackjack.hpp */,
 			);
 			path = Blackjack;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A143F5261E6EA354002F4B96 /* Blackjack.cpp in Sources */,
 				A143F51E1E6EA328002F4B96 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
