@@ -205,5 +205,5 @@ Player::Player(int m){
 }
 
 void Player::collect(){
-    
+    std::cout<<"You have this much money:";
 }
