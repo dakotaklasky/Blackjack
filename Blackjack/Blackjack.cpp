@@ -3,23 +3,7 @@
 #include <iostream>
 #include<vector>
 
-/*
- You might or might not need these two extra libraries
- #include <iomanip>
- #include <algorithm>
- */
 
-
-/* *************************************************
- Card class
- ************************************************* */
-
-/*
- Default constructor for the Card class.
- It could give repeated cards. This is OK.
- Most variations of Blackjack are played with
- several decks of cards at the same time.
- */
 Card::Card(){
     int r = 1 + rand() % 4;
     switch (r) {
