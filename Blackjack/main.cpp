@@ -9,7 +9,17 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    std::string bet;
+    std::string answer;
+    std::cout<<"Please place your bet";
+    std::cin>> bet;
+    std::cout<< "Do you want another card";
+    std::cin>> answer;
+    if (answer == "yes") {
+        //give new card
+    }
+    if (answer == "no"){
+        //count cards
+    }
     return 0;
 }
