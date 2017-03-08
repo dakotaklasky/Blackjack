@@ -3,6 +3,7 @@
 #include <iostream>
 #include<vector>
 
+//this is an experimental copy
 
 Card::Card(){
     int r = 1 + rand() % 4;
